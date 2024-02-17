@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Require Meta Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Require Title Tag -->
+    <title>South Bangla Paribahan</title>
+    <!-- Google Font -->
+    <!-- Tailwind CSS & Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <style>
+        .banner{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images/banner.png);
+        }
+    </style>
+
+</head>
+<body class="font-relway">
+    <!-- Header Area Design Start Here  -->
+    <header class="container mx-auto px-5 lg:px-24">
+        <!-- Navbar Design -->
+        <div class="navbar bg-base-100 mb-4 mt-2">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+              </div>
+              <a class="cursor-pointer text-xl lg:text-3xl font-bold">SB Paribahan</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 pt-3">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end cursor-pointer">
+                    <span class="mr-3 text-lg text-[#55DC40] font-semibold">Bus</span>
+                    <img src="./images/bus-icon.png" alt="">
+            </div>
+          </div>
+
+
+          <!-- Banner Section -->
+          <div class="bg-[url(./images/banner.png)] bg-no-repeat bg-center bg-cover h-[500px] md:h-[520px] rounded-lg">
+                <div class="flex justify-center items-center text-center">
+                    <div class="pt-20">
+                        <h2 class="text-3xl lg:text-6xl text-white font-extrabold leading-snug">End-to-End Travel with <br><span class="text-[#1DD100]">SB Paribahan</span></h2>
+                        <p class="my-7 text-gray-200 font-normal font-inter leading-relaxed lg:px-60">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                        <button id="banner-btn" class="bg-[#1DD100] text-black px-5 py-3 rounded-lg text-sm font-semibold">Buy Tickets</button>
+                    </div>
+                </div>
+          </div>
+
+    </header>
+
+    <!-- Main Area Design Start Here -->
+    <main class="container mx-auto px-5 lg:px-24">
+        <!-- Three Box Section -->
+        <section class=" lg:-translate-y-12 mx-auto">
+            <div>
+                <div class="flex flex-col lg:flex-row justify-center items-center gap-5">
+                    <div class="flex justify-evenly items-center w-[250px] bg-white border-b-2 border-[#1DD100] p-5 rounded-lg">
+                        <div>
+                            <img src="./images/people.png" alt="people">
+                        </div>
+                        <div>
+                            <h2 class="font-inter font-bold text-2xl">500K+</h2>
+                            <p class="font-inter font-normal text-sm text-gray-600">Registered users</p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-evenly  items-center w-[250px] bg-white border-b-2 border-[#1DD100] p-5 rounded-lg">
+                        <div>
+                            <img src="./images/ticket-cupon.png" alt="people">
+                        </div>
+                        <div>
+                            <h2 class="font-inter font-bold text-2xl">1.7 lacks</h2>
+                            <p class="font-inter font-normal text-sm text-gray-600">Tickets sold</p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-evenly items-center w-[250px] bg-white border-b-2 border-[#1DD100] p-5 rounded-lg">
+                        <div>
+                            <img src="/images/stoppage.png" alt="people">
+                        </div>
+                        <div>
+                            <h2 class="font-inter font-bold text-2xl">80K+</h2>
+                            <p class="font-inter font-normal text-sm text-gray-600">Rental partners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <!-- Footer Area Design Start Here -->
+    <footer>
+
+    </footer>
+
+<script src="./js/main.js"></script>   
+</body>
+</html>
